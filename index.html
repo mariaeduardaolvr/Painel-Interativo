@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel Interativo de Dengue</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Painel de Casos de Dengue no Brasil (2023-2024)</h1>
+  </header>
+
+  <aside id="info-panel">
+    <h2>Cuidados e Orientações</h2>
+    <ul>
+      <li>Mantenha recipientes fechados ou virados para evitar água parada.</li>
+      <li>Use repelentes e roupas que cubram braços e pernas.</li>
+      <li>Evite o acúmulo de lixo e água em vasos, pneus ou garrafas.</li>
+      <li>Em caso de sintomas (febre, dor de cabeça, manchas vermelhas), procure um posto de saúde.</li>
+      <li>Notifique casos suspeitos para monitoramento local.</li>
+    </ul>
+  </aside>
+
+  <button id="toggle-button">Ocultar/Mostrar Orientações</button>
+
+  <section id="filters">
+    <label for="state">Estado:</label>
+    <select id="state"></select>
+
+    <label for="year">Ano:</label>
+    <select id="year"></select>
+  </section>
+
+  <section id="charts">
+    <canvas id="casesChart"></canvas>
+  </section>
+
+  <footer>
+    <p>Dados baseados no Ministério da Saúde (SINAN/DATASUS)</p>
+  </footer>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
