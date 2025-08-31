@@ -46,7 +46,7 @@ Chart.js – Criação de gráficos dinâmicos e visualmente atrativos.
 
 Clone o repositório:
 
-git clone https://github.com/mariaeduardaolvr/Painel-Interativo-Dengue.git
+git clone https://github.com/mariaeduardaolvr/Painel-Interativo.git
 
 
 Abra o arquivo index.html no navegador.
